@@ -1,0 +1,78 @@
+{C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/address_converter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/address_converter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module address_converter
+
+Top level modules:
+	address_converter
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v} {1 {vlog -work work -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module Lab6
+
+Top level modules:
+	Lab6
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/ROM_LINUX.v} {1 {vlog -work work -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/ROM_LINUX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module ROM_LINUX
+
+Top level modules:
+	ROM_LINUX
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v} {1 {vlog -work work -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module SyncCount
+
+Top level modules:
+	SyncCount
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v} {1 {vlog -work work -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module Lab7
+
+Top level modules:
+	Lab7
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/ClockDiv.v} {1 {vlog -work work -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/ClockDiv.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module ClockDiv
+
+Top level modules:
+	ClockDiv
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/display_mux.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/display_mux.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module display_mux
+
+Top level modules:
+	display_mux
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/decoder2_4.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/decoder2_4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module decoder2_4
+
+Top level modules:
+	decoder2_4
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/mux2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/mux2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/comparator.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/comparator.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}}

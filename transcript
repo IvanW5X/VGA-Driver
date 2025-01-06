@@ -1,0 +1,1619 @@
+# Compile of address_converter.sv was successful.
+# Compile of comparator.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder2_4.sv was successful.
+# Compile of display_mux.sv was successful.
+# Compile of Lab7.v was successful.
+# Compile of mux2.sv was successful.
+# Compile of SyncCount.v was successful.
+# Compile of ClockDiv.v was successful.
+# Compile of Lab6.v was successful.
+# Compile of ROM_LINUX.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of address_converter.sv was successful.
+# Compile of comparator.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder2_4.sv was successful.
+# Compile of display_mux.sv was successful.
+# Compile of Lab7.v was successful.
+# Compile of mux2.sv was successful.
+# Compile of SyncCount.v was successful.
+# Compile of ClockDiv.v was successful.
+# Compile of Lab6.v was successful.
+# Compile of ROM_LINUX.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.Lab7
+# vsim -gui work.Lab7 
+# Start time: 10:37:40 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst12 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/ROM_LINUX.v Line: 59
+#         Searched libraries:
+#             C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/work
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# Error loading design
+# ** Error: Acs sdne.
+# k
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# n
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:37:41 on Jun 07,2024, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 4
+do Lab7.do
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+do Lab7.do
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+vsim -gui work.Lab7
+# vsim -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst12 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/ROM_LINUX.v Line: 59
+#         Searched libraries:
+#             C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/work
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+# Compile of address_converter.sv was successful.
+# Compile of comparator.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder2_4.sv was successful.
+# Compile of display_mux.sv was successful.
+# Compile of Lab7.v was successful.
+# Compile of mux2.sv was successful.
+# Compile of SyncCount.v was successful.
+# Compile of ClockDiv.v was successful.
+# Compile of Lab6.v was successful.
+# Compile of ROM_LINUX.v was successful.
+# 11 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+do Lab7.do
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedColumns' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Error (suppressible): (vsim-3389) Port 'DisplayedRows' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab6.v Line: 61
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 71
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(71): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 89
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(89): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 101
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(101): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(113): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 125
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(125): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 137
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(137): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 151
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(151): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v Line: 163
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab6/SyncCount.v(163): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# øòÈ‡  É†s 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# Compile of address_converter.sv was successful.
+# Compile of comparator.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder2_4.sv was successful.
+# Compile of display_mux.sv was successful.
+# Compile of Lab7.v was successful.
+# Compile of mux2.sv was successful.
+# Compile of ClockDiv.v was successful.
+# Compile of Lab6.v was successful.
+# Compile of ROM_LINUX.v was successful.
+# Compile of SyncCount.v was successful.
+# 11 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:38:50 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+do Lab7.do
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:48:26 on Jun 07,2024, Elapsed time: 0:09:36
+# Errors: 27, Warnings: 545
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:48:26 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BlueCon' not found.
+# Error in macro ./Lab7.do line 8
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BlueCon' not found.
+# 
+#     while executing
+# "force BlueCon 11 @ 0"
+quit -sim
+# ** Error: Acs sdne.
+# ªlôs 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# ªpà  freBuCn1  
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:49:22 on Jun 07,2024, Elapsed time: 0:00:56
+# Errors: 2, Warnings: 61
+vsim -L altera_mf_ver -gui work.Lab7
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:49:32 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+do Lab7.do
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:49:43 on Jun 07,2024, Elapsed time: 0:00:11
+# Errors: 2, Warnings: 61
+# vsim -gui work.Lab7 
+# Start time: 10:49:43 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst12 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/ROM_LINUX.v Line: 59
+#         Searched libraries:
+#             C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/work
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab7.do PAUSED at line 1
+do Lab7.do
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:49:43 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BlueCon' not found.
+# Error in macro ./Lab7.do line 8
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BlueCon' not found.
+# 
+#     while executing
+# "force BlueCon 11 @ 0"
+do Lab7.do
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:51:08 on Jun 07,2024, Elapsed time: 0:01:25
+# Errors: 3, Warnings: 61
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:51:08 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BIn' not found.
+# Error in macro ./Lab7.do line 8
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BIn' not found.
+# 
+#     while executing
+# "force BIn 11 @ 0"
+do Lab7.do
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:51:36 on Jun 07,2024, Elapsed time: 0:00:28
+# Errors: 2, Warnings: 61
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:51:36 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BIn' not found.
+# Error in macro ./Lab7.do line 8
+# ** UI-Msg (suppressible): (vsim-4008) Object 'BIn' not found.
+# 
+#     while executing
+# "force BIn 11 @ 0"
+do Lab7.do
+# ** Error: Acs sdne.
+# È0gú  
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# (©'º  
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 10:53:21 on Jun 07,2024, Elapsed time: 0:01:45
+# Errors: 2, Warnings: 61
+# vsim -L altera_mf_ver -gui work.Lab7 
+# Start time: 10:53:21 on Jun 07,2024
+# Loading work.Lab7
+# Loading sv_std.std
+# Loading work.decoder2_4
+# Loading work.ClockDiv
+# Loading work.ROM_LINUX
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altera_syncram_derived
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.Lab6
+# Loading work.mux2
+# Loading work.SyncCount
+# Loading work.counter
+# Loading work.comparator
+# Loading work.display_mux
+# Loading work.address_converter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst10'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst10 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 80
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(80): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst17'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst17 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 102
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(102): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst18'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst18 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 114
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(114): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst2 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 128
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(128): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst21'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst21 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 140
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(140): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst22'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst22 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 152
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(152): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 166
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(166): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst7'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst3/b2v_inst1/b2v_inst7 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v Line: 192
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/SyncCount.v(192): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst4'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst4 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 95
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(95): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst5'.  Expected 7, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst5 File: C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v Line: 107
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'eq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'neq'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'lte'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gt'.
+# ** Warning: (vsim-3722) C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.v(107): [TFMPC] - Missing connection for port 'gte'.
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "../mifData.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(264)
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst12/altsyncram_component/altera_syncram_inst
+# ERROR: cannot read ../mifData.mif.
+# Initializing memory contents for Lab7.b2v_inst12.altsyncram_component.altera_syncram_inst.initialize_mem_contents with                                                                                                                                                                                                                                                   ../mifData.ver
+# ** Warning: (vsim-7) Failed to open readmem file "../mifData.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(32551)
+#    Time: 0 ps  Iteration: 0  Instance: /Lab7/b2v_inst12/altsyncram_component/altera_syncram_inst
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/ivanw/Downloads/ECE 272/Labs/Lab7/Lab7.mpf).  File can not be renamed.
+# End time: 09:07:17 on Jun 08,2024, Elapsed time: 22:13:56
+# Errors: 2, Warnings: 63

@@ -1,0 +1,86 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 328 144)
+	(text "Lab6" (rect 5 0 40 20)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 105 31 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Clock" (rect 0 0 38 20)(font "Intel Clear" (font_size 8)))
+		(text "Clock" (rect 21 27 59 47)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Reset" (rect 0 0 38 20)(font "Intel Clear" (font_size 8)))
+		(text "Reset" (rect 21 43 59 63)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "RGBin[11..0]" (rect 0 0 87 20)(font "Intel Clear" (font_size 8)))
+		(text "RGBin[11..0]" (rect 21 59 108 79)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 312 32)
+		(output)
+		(text "HSync" (rect 0 0 44 20)(font "Intel Clear" (font_size 8)))
+		(text "HSync" (rect 247 27 291 47)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 32)(pt 296 32))
+	)
+	(port
+		(pt 312 48)
+		(output)
+		(text "VSync" (rect 0 0 43 20)(font "Intel Clear" (font_size 8)))
+		(text "VSync" (rect 248 43 291 63)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 48)(pt 296 48))
+	)
+	(port
+		(pt 312 64)
+		(output)
+		(text "RGBout[11..0]" (rect 0 0 99 20)(font "Intel Clear" (font_size 8)))
+		(text "RGBout[11..0]" (rect 192 59 291 79)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 64)(pt 296 64)(line_width 3))
+	)
+	(port
+		(pt 312 80)
+		(output)
+		(text "DisplayedRows[9..0]" (rect 0 0 142 20)(font "Intel Clear" (font_size 8)))
+		(text "DisplayedRows[9..0]" (rect 149 75 291 95)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 80)(pt 296 80)(line_width 3))
+	)
+	(port
+		(pt 312 96)
+		(output)
+		(text "DisplayedColumns[9..0]" (rect 0 0 167 20)(font "Intel Clear" (font_size 8)))
+		(text "DisplayedColumns[9..0]" (rect 124 91 291 111)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 96)(pt 296 96)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 296 112))
+	)
+)

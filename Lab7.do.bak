@@ -1,0 +1,12 @@
+vsim -L altera_mf_ver -gui work.Lab7
+
+add wave *
+
+force Reset 0 @ 0, 1 @ 1
+force Clock 0 @ 0, 1 @ 2 -r 4
+
+force BIn 11 @ 0
+force RIn 11 @ 0
+force GIn 11 @ 0
+
+run 10000
